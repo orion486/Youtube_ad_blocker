@@ -6,7 +6,7 @@
     "content_scripts": [{
         "js": ["script.js"],
         "run_at": "document_idle",
-        "matches": ["<all_urls>"]
+        "matches": ["*://*.youtube.com/*", "*://*.youtu.be/*"]
     }],
     "permissions": [
         "tabs",
